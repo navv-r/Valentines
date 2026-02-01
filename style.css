@@ -14,7 +14,18 @@ section {
     color:red;
     font-family: "Pacifico", cursive;
     word-spacing: 16px;
+    letter-spacing: 6px;
     margin-top: 150px;
+    font-size: 60px;
+}
+
+.title span {
+    transition: transform 0.3s ease; 
+    display: inline-block; 
+}
+
+.title span:hover {
+    transform: scale(1.2); 
 }
 
 .buttons {
@@ -27,22 +38,34 @@ section {
 
 .yes {
     margin-top: 24px;
-    margin-right: 12px;
+    margin-right: 40px;
     border-radius:10px;
     padding: 12px;
     border-style: hidden;
     font-family: "Pacifico", cursive;
     width: 100px;
     cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.6s ease;
+}
+
+.yes:hover {
+    transform: scale(1.5);
 }
 
 .no {
     margin-top: 24px;
-    margin-left: 12px;
+    margin-left: 40px;
     border-radius:10px;
     padding: 12px;
     border-style: hidden;
     font-family: "Pacifico", cursive;
     width: 100px;
     cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.6s ease;
+}
+
+.no:hover {
+    transform: scale(1.5);
 }
