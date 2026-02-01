@@ -16,7 +16,7 @@ section {
     font-family: "Pacifico", cursive;
     word-spacing: 16px;
     letter-spacing: 6px;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 60px;
     text-decoration: wavy;
 }
@@ -84,7 +84,7 @@ section {
 }
 
 .no__img {
-    width: 300px;
+    width: 400px;
     opacity: 0;
     transition: opacity 0.5s ease;
     border-radius: 20px;
