@@ -13,6 +13,8 @@ section {
 .title { 
     color:red;
     font-family: "Pacifico", cursive;
+    word-spacing: 16px;
+    margin-top: 150px;
 }
 
 .buttons {
@@ -22,18 +24,25 @@ section {
     align-items: center;
 }
 
+
 .yes {
-    margin: 24px;
-    border-radius:20px;
+    margin-top: 24px;
+    margin-right: 12px;
+    border-radius:10px;
     padding: 12px;
     border-style: hidden;
     font-family: "Pacifico", cursive;
+    width: 100px;
+    cursor: pointer;
 }
 
 .no {
-    margin: 24px;
-    border-radius:20px;
+    margin-top: 24px;
+    margin-left: 12px;
+    border-radius:10px;
     padding: 12px;
     border-style: hidden;
     font-family: "Pacifico", cursive;
+    width: 100px;
+    cursor: pointer;
 }
