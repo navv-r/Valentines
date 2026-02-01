@@ -1,0 +1,39 @@
+body {
+    background-color: lightpink;
+}
+
+section {
+    max-width: 2500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title { 
+    color:red;
+    font-family: "Pacifico", cursive;
+}
+
+.buttons {
+    display: flex;
+    max-width: 2500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.yes {
+    margin: 24px;
+    border-radius:20px;
+    padding: 12px;
+    border-style: hidden;
+    font-family: "Pacifico", cursive;
+}
+
+.no {
+    margin: 24px;
+    border-radius:20px;
+    padding: 12px;
+    border-style: hidden;
+    font-family: "Pacifico", cursive;
+}
