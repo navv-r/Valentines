@@ -56,6 +56,7 @@ section {
 .no {
     margin-top: 24px;
     margin-left: 40px;
+    margin-right: 40px;
     border-radius:10px;
     padding: 12px;
     border-style: hidden;
@@ -68,4 +69,16 @@ section {
 
 .no:hover {
     transform: scale(1.5);
+}
+
+.yes__img {
+    width: 300px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.no__img {
+    width: 300px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
